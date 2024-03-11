@@ -26,5 +26,5 @@ class Owner:
         pet.owner = self
         self._pets.append(pet)
 
-    # def get_sorted_pets(self):
-    #     return sorted(self._pets)
+    def get_sorted_pets(self):
+        return sorted(self._pets)
